@@ -1,0 +1,95 @@
+body
+{
+	font-size: 16px;
+	color: #000;
+	background-color: #fff;
+	font-family: 'Times', serif;
+}
+
+/**HEADER**/
+
+#header-nav{
+	background-color: gray;
+	border:  2px solid black;
+	border-radius: 0;
+	padding-bottom: 20px;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1 { 
+	font-family: 'Helvetica', sans-serif;
+	color: #000;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;  
+}
+
+#header-nav button.navbar-toggle, #header-nav .icon-bar{
+	border: 2px solid #000;
+}
+
+#header-nav button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+/** END OF HEADER **/
+
+/** MAIN CONTENT **/
+
+#our-menu-title {
+	font-size: 2em;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+
+.menu-category {
+	position: relative;
+	background-color: gray;
+	padding: 0px 20px 10px 20px;
+	margin-bottom: 10px;
+}
+
+.menu-item{
+	position: relative;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.menu-description p{
+	padding-top: 0px;
+}
+
+@media(max-width:  767px){
+
+#collapsable-nav a{
+	font-size:  1.2em;
+	color: #000;
+	background-color: #fff;
+	border: 2px solid #000;	
+	text-align: center;
+	font-family: 'Helvetica', sans-serif;
+	padding-top: 10px;
+}
+#nav-list{
+	margin-top: auto;
+   	margin-bottom: auto;
+   	border-top: 2px;
+   	border-bottom: 2px;
+}
+
+#header-nav{
+	padding-bottom: 0px;
+}
+}

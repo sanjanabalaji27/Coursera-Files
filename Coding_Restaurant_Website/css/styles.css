@@ -393,4 +393,8 @@ margin-top: 12px;
 	width: 100%;
  }
 
+#nav-list{
+	margin-top: auto;
+   margin-bottom: auto;
+}
 }
